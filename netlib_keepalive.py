@@ -8,6 +8,9 @@ PASVORTO = os.environ.get("PASVORTO", "")
 TELEGRAM_SIGNALO = os.environ.get("TELEGRAM_SIGNALO", "")
 TELEGRAM_BABILO_ID = os.environ.get("TELEGRAM_BABILO_ID", "")
 
+print(UZANTONOMO)
+print(PASVORTO)
+
 fail_msgs = [
     "Invalid credentials.",
     "Not connected to server.",
